@@ -9,6 +9,7 @@ import FindMyDoctor from './componentas/FindMyDoctor';
 import CreateAccount from './componentas/DocterAccountCreation'
 import AppointmentBooking from './componentas/AppointmentBooking';
 import DocterDashBoardLogin from './componentas/DoctorDashBoardLogin'
+import Dashboard from './componentas/Dashboard';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <Route path="/createAccount" element={<CreateAccount />} />
         <Route path="/appointment" element={<AppointmentBooking />} />
         <Route path="/doctorDashBoardLogin" element={<DocterDashBoardLogin/>} />
-
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   );
