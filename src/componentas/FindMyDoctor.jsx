@@ -9,7 +9,7 @@ const FindMyDoctor = () => {
   useEffect(() => {
     const fetchDoctors = async () => {
       try {
-        const response = await fetch("https://hospital-management-backend-production.up.railway.app/getAllDoctors");
+        const response = await fetch("http://localhost:8080/getAllDoctors");
         if (!response.ok) {
           throw new Error("Failed to fetch doctors");
         }

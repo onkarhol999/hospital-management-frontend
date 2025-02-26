@@ -10,6 +10,7 @@ import CreateAccount from './componentas/DocterAccountCreation'
 import AppointmentBooking from './componentas/AppointmentBooking';
 import DocterDashBoardLogin from './componentas/DoctorDashBoardLogin'
 import Dashboard from './componentas/Dashboard';
+import EmailPage from './componentas/EmailPage';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/appointment" element={<AppointmentBooking />} />
         <Route path="/doctorDashBoardLogin" element={<DocterDashBoardLogin/>} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/emailPage" element={<EmailPage />} />
       </Routes>
     </Router>
   );

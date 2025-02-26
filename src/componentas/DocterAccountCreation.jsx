@@ -25,7 +25,7 @@ const DoctorSignup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://hospital-management-backend-production.up.railway.app/addDocter", {
+      const response = await fetch("http://localhost:8080/addDocter", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

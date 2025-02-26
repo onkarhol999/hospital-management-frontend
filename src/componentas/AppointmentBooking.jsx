@@ -29,7 +29,7 @@ const Appointment = () => {
 
     try {
       const response = await axios.post(
-        "https://hospital-management-backend-production.up.railway.app/addAppoitment",
+        "http://localhost:8080/addAppoitment",
         appointmentData
       );
       setSuccess("Appointment booked successfully!");
