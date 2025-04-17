@@ -17,7 +17,7 @@ export default function Navbar() {
         <li><Link to="/" className="block py-2 px-4">Home</Link></li>
         <li><Link to="/about" className="block py-2 px-4">About</Link></li>
         <li><Link to="/services" className="block py-2 px-4">Services</Link></li>
-        <li><Link to="/findMyDoctor" className="block py-2 px-4">Find My Doctor</Link></li>
+        <li><Link to="/login" className="block py-2 px-4">Find My Doctor</Link></li>
         <li><Link to="/doctorDashBoardLogin" className="block py-2 px-4">Dashboard</Link></li>
         <li><Link to="/createAccount" className="block py-2 px-4">Create Account</Link></li>
       </ul>

@@ -11,6 +11,8 @@ import AppointmentBooking from './componentas/AppointmentBooking';
 import DocterDashBoardLogin from './componentas/DoctorDashBoardLogin'
 import Dashboard from './componentas/Dashboard';
 import EmailPage from './componentas/EmailPage';
+import UserSignUp from './componentas/UserSignUp';
+import UserLogin from './componentas/UserLogin';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
         <Route path="/doctorDashBoardLogin" element={<DocterDashBoardLogin/>} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/emailPage" element={<EmailPage />} />
+        <Route path="/signUp" element={<UserSignUp />} />
+        <Route path="/login" element={<UserLogin />} />
       </Routes>
     </Router>
   );
