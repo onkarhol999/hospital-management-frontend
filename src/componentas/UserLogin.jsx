@@ -23,7 +23,7 @@ const UserLogin = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:8080/loginUser", {
+      const response = await fetch("https://perceptive-clarity-production.up.railway.app/loginUser", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

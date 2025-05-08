@@ -25,7 +25,7 @@ const DoctorSignup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:8080/addDocter", {
+      const response = await fetch("https://perceptive-clarity-production.up.railway.app/addDocter", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

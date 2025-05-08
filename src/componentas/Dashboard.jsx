@@ -47,7 +47,7 @@ const Dashboard = () => {
 
   const handleDeleteAppointment = async (appointmentId) => {
     try {
-      const response = await fetch(`http://localhost:8080/deleteAppoitmentById/${appointmentId}`, {
+      const response = await fetch(`https://perceptive-clarity-production.up.railway.app/deleteAppoitmentById/${appointmentId}`, {
         method: "DELETE",
       });
 

@@ -29,7 +29,7 @@ const Appointment = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/addAppoitment",
+        "https://perceptive-clarity-production.up.railway.app/addAppoitment",
         appointmentData
       );
       setSuccess("Appointment booked successfully!");

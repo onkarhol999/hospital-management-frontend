@@ -16,7 +16,7 @@ const Login = () => {
 
     try {
       const response = await axios.get(
-        `http://localhost:8080/getAppoitmentByDocter/${username}`
+        `https://perceptive-clarity-production.up.railway.app/getAppoitmentByDocter/${username}`
       );
 
       if (response.data && response.data.length > 0) {
