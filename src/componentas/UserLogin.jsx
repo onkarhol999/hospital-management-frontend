@@ -23,7 +23,7 @@ const UserLogin = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://perceptive-clarity-production.up.railway.app/loginUser", {
+      const response = await fetch("https://hospital-management-backend-production-dbf7.up.railway.app/loginUser", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

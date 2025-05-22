@@ -33,7 +33,7 @@ const EmailPage = () => {
     setError("");
 
     try {
-      const response = await axios.post("https://perceptive-clarity-production.up.railway.app/sendEmail", {
+      const response = await axios.post("https://hospital-management-backend-production-dbf7.up.railway.app/sendEmail", {
         to: email, // Corrected from "email" to "to"
         subject,
         message,
