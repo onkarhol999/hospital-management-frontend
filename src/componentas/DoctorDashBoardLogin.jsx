@@ -16,7 +16,7 @@ const Login = () => {
 
     try {
       const response = await axios.get(
-        `https://hospital-management-backend-production-dbf7.up.railway.app/getAppoitmentByDocter/${username}`
+        `https://hospital-management-backend-production-f644.up.railway.app/getAppoitmentByDocter/${username}`
       );
 
       if (response.data && response.data.length > 0) {

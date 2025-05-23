@@ -47,7 +47,7 @@ const Dashboard = () => {
 
   const handleDeleteAppointment = async (appointmentId) => {
     try {
-      const response = await fetch(`https://hospital-management-backend-production-dbf7.up.railway.app/deleteAppoitmentById/${appointmentId}`, {
+      const response = await fetch(`https://hospital-management-backend-production-f644.up.railway.app/deleteAppoitmentById/${appointmentId}`, {
         method: "DELETE",
       });
 

@@ -25,7 +25,7 @@ const UserSignUp = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://hospital-management-backend-production-dbf7.up.railway.app/addUser", {
+      const response = await fetch("https://hospital-management-backend-production-f644.up.railway.app/addUser", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
